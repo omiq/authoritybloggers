@@ -12,7 +12,7 @@ export default function Page() {
   const generalSettings = useQuery().generalSettings;
   const posts = usePosts({
     first: 8,
-    where: {categoryNotIn: "newsletter"},
+    where: {categoryNotIn: ["newsletter",]},
   });
 
   return (
