@@ -38,11 +38,11 @@ function Header({
               </li>
             ))}
             <li>
-              <Link href="https://github.com/wpengine/faustjs">
+              <Link href="https://peakd.com/c/hive-103257">
                 <a
                   className="button"
-                  href="https://github.com/wpengine/faustjs">
-                  GitHub
+                  href="https://peakd.com/c/hive-103257">
+                  Authority Bloggers on Hive
                 </a>
               </Link>
             </li>
