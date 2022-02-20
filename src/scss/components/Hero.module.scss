@@ -3,29 +3,21 @@
 @import "scss/variables";
 
 .hero {
-	background-color: $color-dark-gray;
-	background-position: 48% 72%;
+
+	background-position:center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	color: $color-white;
-	padding: 7em 0 9em;
 	position: relative;
+	height: 400px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 }
 
-.wrap {
-	margin: 0 auto;
-	max-width: $content-width;
-	overflow: auto;
-	padding: 0 10px;
-	position: relative;
-	z-index: 1;
+.content .hero .wrap {
+	visibility:hidden;
 }
 
-@media screen and (min-width: $content-width) {
-	.wrap {
-		padding: 0;
-	}
-}
+
 
 .hero::before {
 	content: "";
@@ -39,22 +31,11 @@
 	z-index: 1;
 }
 
-.hero a {
-	color: $color-white;
-}
 
-.children a:focus,
-.children a:hover {
-	color: darken($color-white, 25);
-}
-
-@media screen and (min-width: $breakpoint-medium) {
-	.hero h1 {
-		max-width: 80%;
-	}
-
-	.intro {
-		margin-bottom: 2%;
-		max-width: 50%;
+@media screen and (max-width: $breakpoint-phone) {
+	.hero {
+		background-position:center;
+		width: 100%;
+		height: 250px;
 	}
 }

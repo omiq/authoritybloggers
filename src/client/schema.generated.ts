@@ -965,10 +965,10 @@ export interface MediaItemToCommentConnectionWhereArgs {
 export enum MediaItemSizeEnum {
   /** MediaItem with the large size */
   LARGE = 'LARGE',
-  /** MediaItem with the medium size */
-  MEDIUM = 'MEDIUM',
-  /** MediaItem with the medium_large size */
-  MEDIUM_LARGE = 'MEDIUM_LARGE',
+  /** MediaItem with the tablet size */
+  tablet = 'tablet',
+  /** MediaItem with the tablet_large size */
+  tablet_LARGE = 'tablet_LARGE',
   /** MediaItem with the post-thumbnail size */
   POST_THUMBNAIL = 'POST_THUMBNAIL',
   /** MediaItem with the thumbnail size */

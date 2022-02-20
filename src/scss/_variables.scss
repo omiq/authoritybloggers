@@ -9,8 +9,9 @@ $font-family: "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-weight-normal: 300;
 $font-weight-bold: 600;
 
-$content-width: 1200px;
-$content-width-extended: 1400px;
+$content-width: 692px;
+$content-width-extended: 100%;
 
-$breakpoint-small: 600px;
-$breakpoint-medium: 1000px;
+$breakpoint-phone: 400px;
+$breakpoint-tablet: 800px;
+$breakpoint-desktop: 1024px;

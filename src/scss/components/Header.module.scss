@@ -18,7 +18,7 @@
 	padding: 20px 0 0;
 }
 
-@media screen and (min-width: $breakpoint-small) {
+@media screen and (min-width: $breakpoint-phone) {
 	.title-wrap {
 		padding: 20px 0;
 	}
@@ -35,7 +35,7 @@
 	padding: 0 10px;
 }
 
-@media screen and (min-width: $breakpoint-small) {
+@media screen and (min-width: $breakpoint-phone) {
 	.wrap {
 		align-items: center;
 		display: flex;
@@ -71,7 +71,7 @@
 	padding-left: 0;
 }
 
-@media screen and (min-width: $breakpoint-small) {
+@media screen and (min-width: $breakpoint-phone) {
 	.menu li:first-of-type {
 		padding-left: 1em;
 	}
